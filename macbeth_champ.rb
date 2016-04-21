@@ -25,7 +25,7 @@ class MacbethChamp
 		text_hash = Hash.new
 		
 		@text.each_line do |line|
-	  words = line.split
+	        words = line.split
 	  	words.each do |word|
 	  		if word.length >= 4
 	  			word = word.gsub(/\W+/, '').downcase
